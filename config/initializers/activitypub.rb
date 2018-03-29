@@ -8,3 +8,5 @@ Rails.application.configure do
   config.x.web_domain   = web_host
   config.x.use_https    = https
 end
+
+Rails.application.default_url_options[:host] = web_host
